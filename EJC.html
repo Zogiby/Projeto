@@ -1,24 +1,45 @@
 <html>
-    <head>        
-        <meta charset="UTF-8">
-        <title> EJC Jornal </title>
-        <link rel="stylesheet" href="./CSS/estilos.css"> 
-    </head>
-    <body class="body">
-        <img src="Logo.png.png" class="img">
 
-        <form method="post" action="Pagina1.html"> 
+<head>
+    <meta charset="UTF-8">
+    <title> EJC Jornal </title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+
+<body class="body">
+    <img src="Logo.png.png" class="img">
+
+    <form>
         <div class="div">
 
             <h1 class="letra"> Login </h1>
-            <input type= "text" placeholder= "Usuário" required>
+            <input type="text" placeholder="Usuário" id="login" required>
             <br><br>
-            <input type= "password" placeholder= "Senha" required>
+            <input type="password" placeholder="Senha" id="senha" required>
             <br><br>
-            <button> Enviar </button>  
+            <input type="submit" onclick="logar(); return false">
 
         </div>
-        </form>
-        
-    </body>
+    </form>
+
+
+    <script>
+
+        function logar() {
+
+            var login = document.getElementById("login").value;
+            var senha = document.getElementById("senha").value;
+
+            if (login == "admin" && senha == "admin123") {
+                alert("Login realizado com sucesso");
+                location.href = "Pagina1.html";
+            } else {
+                alert("Usuario ou senha incorretos")
+            }
+        }
+
+    </script>
+
+</body>
+
 </html>
