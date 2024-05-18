@@ -17,7 +17,7 @@
             <br><br>
             <input type="password" placeholder="Senha" id="senha" required>
             <br><br>
-            <input type="submit" onclick="logar(); return false">
+            <input type="submit" onclick="logar(); return false" class="botao">
 
         </div>
     </form>
@@ -30,7 +30,7 @@
             var login = document.getElementById("login").value;
             var senha = document.getElementById("senha").value;
 
-            if (login == "admin" && senha == "admin123") {
+            if (login == "ejcaparecida" && senha == "ejc2024") {
                 alert("Login realizado com sucesso");
                 location.href = "Pagina1.html";
             } else {
