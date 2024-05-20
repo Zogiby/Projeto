@@ -52,18 +52,17 @@ footer {
   background-color: rgb(255, 255, 255);
 }
 
-.imagem{
+.imagem {
   width: 400px;
   height: 400px;
   padding: 15px;
 }
 
-.textos{
+.textos {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
-  
 }
 /*Fim do css de Página principal*/
 
@@ -86,21 +85,27 @@ footer {
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
-  
-  
 }
 
-.semlinha{
+.semlinha {
   text-decoration: none;
   list-style: none;
   color: #ffff;
 }
-
-
+.ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+/* rodape, irei deixar ele na horizontal*/
+.rodape_informacoes_de_contato {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
 
 /*Fim do css de encontreiros*/
 
 /* Início do css de encontristas*/
-
 
 /*Fim do css de encontristas*/
