@@ -16,7 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 75px;
+    padding: 60px;
     border-radius: 15px;
     text-align: center;
     
@@ -51,3 +51,5 @@ input{
     padding: 15px;
     
 }
+
+
