@@ -63,20 +63,36 @@ footer {
   width: 400px;
   height: 400px;
   padding: 15px;
+  display: inline-block;
 }
 
 .textos {
-  display: flex;
-  justify-content: center;
+  
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
+  display: inline-block;
+  color: hsl(209, 59%, 41%);
+}
+.roteiro{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
 }
 
 .img{
   width: 100px;
   height: 100px;
   padding-left: 30px;
+  display: flex;
 }
+
+.lado{
+  display: flex;
+  
+}
+.aolado{
+  display: inline-block;
+}
+
 
 /*Fim do css de Página principal*/
 
