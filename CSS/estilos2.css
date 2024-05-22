@@ -7,18 +7,15 @@
   color: white;
   font-size: 40px;
   display: block;
-
 }
 
 .menu1 {
   background-color: rgb(6, 86, 233);
   padding: 10px;
-  
- 
 }
 
-.fixo{
- position: fixed;
+.fixo {
+  position: fixed;
 }
 
 .menu2 {
@@ -64,30 +61,33 @@ footer {
   height: 400px;
   padding: 15px;
   display: inline-block;
+  align-items: center;
+  padding-left: 200px;
 }
 
 .textos {
-  
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
-  color: hsl(209, 59%, 41%);
+  color: hsl(209, 77%, 28%);
+  width: 100%;
+  padding-top: 10px;
 }
-.roteiro{
+.roteiro {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  display: block;
+  align-items: center;
+  text-align: center;
 }
 
-.img{
+.img {
   width: 100px;
   height: 100px;
-  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
 }
 
-.lado{
-  display: flex;
-  
+.lado {
+  text-align: center;
 }
 
 /*Fim do css de Página principal*/
@@ -136,6 +136,6 @@ footer {
 
 /*Fim do css de encontristas*/
 
-.diplay{
+.diplay {
   display: flex;
 }
