@@ -144,3 +144,8 @@ footer {
 .diplay {
   display: flex;
 }
+
+a{
+  text-decoration: none;
+  color: #ffff;
+}
