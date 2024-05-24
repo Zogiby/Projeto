@@ -11,7 +11,7 @@
 
 .menu1 {
   background-color: rgb(6, 86, 233);
-  padding: 10px;
+  padding: 25px;
 }
 
 .fixo {
@@ -95,6 +95,11 @@ footer {
   text-align: center;
 }
 
+.carrosel{
+  padding-top: 40px;
+  display: flex;
+}
+
 /*Fim do css de Página principal*/
 
 /* Início do css de encontreiros*/
@@ -148,4 +153,5 @@ footer {
 a{
   text-decoration: none;
   color: #ffff;
+  
 }
