@@ -61,6 +61,7 @@
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   text-align: center;
+  font-size: 16px;
 }
 
 .img {
@@ -77,6 +78,19 @@
 .carrosel{
   padding-top: 40px;
   display: flex;
+}
+
+#link-topo{
+  text-decoration: none;
+  color: #fff;
+  background-color: hsl(209, 59%, 41%);
+  padding: 8px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 2px 2px 8px #333;
+
+
 }
 
 /*Fim do css de Página principal*/

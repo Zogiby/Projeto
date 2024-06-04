@@ -41,8 +41,9 @@ input{
     width: 100%;
     border-radius: 10px;
     font-size: 15px;
+    cursor: pointer;
 }
-.cor:hover{
+button:hover{
     background-color: rgb(110, 124, 252);
 }
 .img{
