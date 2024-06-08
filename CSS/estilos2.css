@@ -95,8 +95,6 @@
 
 /*Fim do css de Página principal*/
 
-/* Início do css de encontreiros*/
-
 .basefundo {
   background-color: rgb(255, 255, 255);
 }
@@ -121,12 +119,6 @@
   justify-content: space-around;
   list-style: none;
 }
-
-/*Fim do css de encontreiros*/
-
-/* Início do css de encontristas*/
-
-/*Fim do css de encontristas*/
 
 .diplay {
   display: flex;
@@ -188,4 +180,10 @@ a{
   text-align: center;
   text-decoration: none;
   color: #fff;
+}
+
+.banner{
+  width: 100%;
+  height: 100px;
+  display: flex;
 }
