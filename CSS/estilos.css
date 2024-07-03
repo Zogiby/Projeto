@@ -42,7 +42,7 @@ input{
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
-    
+    color: aliceblue;
 }
 button:hover{
     background-color: rgb(110, 124, 252);
